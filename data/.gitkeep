@@ -1,1 +1,9 @@
+Link to the dataset: https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants
 
+#API  to import latest version of dataset here
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("himanshupoddar/zomato-bangalore-restaurants")
+
+print("Path to dataset files:", path)
